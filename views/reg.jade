@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  form.form-horizontal(method='post')
+    fieldset
+      lengend 用户注册
+      .control-group
+        label.control-label(for='username') 用户名
+        .controls
+          input.input-xlarge(type="text",id="username",name="username")
+          p.help-block 你的账户名称，用于登录和显示。
+      .control-group
+        label.control-label(for='password') 口令
+        .controls
+          input.input-xlarge(type="password",id="password",name="password")
+      .control-group
+        label.control-label(for='password-repeat') 重复输入口令
+        .controls
+          input.input-xlarge(type="password",id="password-repeat",name="password-repeat")  
+      .form-actions
+        button.btn.btn-primary(type="submit") 注册  
+
+   
+
+
+              
