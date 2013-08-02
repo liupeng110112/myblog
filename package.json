@@ -9,6 +9,7 @@
     "express": "3.3.4",
     "jade": "*",
     "connect-mongo": ">= 0.1.7",
+ "connect-flash": "*",
     "mongodb":">=0.9.1"
   }
 }
